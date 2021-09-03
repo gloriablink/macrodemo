@@ -490,14 +490,15 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     position: static;
 }
 
-.col-units:before{
-	position: absolute;
-	padding: 20px;
-	background-image: url(images/logo_macronet.png);
-	content: "";
-	background-repeat: no-repeat;
-	background-size: contain;
-	display: block;
+.col-units:before {
+    position: absolute;
+    padding: 120px;
+    background-image: url(images/logo_macronet.png);
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-top: -70px;
 }
 
 
