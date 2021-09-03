@@ -447,6 +447,32 @@
     border-radius: 0;
 }
 
+#indice .units ul li {
+    background: #fff;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 0;
+    margin-bottom: 8px;
+    border-bottom: solid #EA506A 4px;
+    padding: 10px 0px;
+}
+
+#indice .units ul li a .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #666;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+    font-family: 'Quicksand';
+}
+
+#indice .units ul li a:not(.delete) {
+    display: block;
+    padding: 16px 16px 16px 10px;
+}
+
+
 /* Navbar */
 	.navbar-bottom {
 		background: #eee;
