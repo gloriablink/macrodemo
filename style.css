@@ -482,6 +482,24 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     padding-bottom: 4px;
 }
 
+/*Prueba logo*/
+.content-wrapper.libro {
+    margin-top: 60px;
+    padding-top: 100px;
+    top: 0;
+    position: static;
+}
+
+.col-units:before{
+	position: absolute;
+	padding: 20px;
+	background-image: url(images/logo_macronet.png);
+	content: "";
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+}
+
 
 /* Navbar */
 	.navbar-bottom {
