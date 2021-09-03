@@ -472,6 +472,16 @@
     padding: 16px 16px 16px 10px;
 }
 
+#indice .units ul li.active:not(.disabled), 
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+#indice .units ul li:focus:not(.disabled) {
+    background: #EA506A;
+    border-left: solid #E30D24 31px;
+    border-right: solid #878787 8px;
+    border-bottom: none;
+    padding-bottom: 4px;
+}
+
 
 /* Navbar */
 	.navbar-bottom {
