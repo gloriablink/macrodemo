@@ -448,7 +448,7 @@
 }
 
 #indice .units ul li {
-    background: #fff;
+    background: transparent;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     border-radius: 0;
