@@ -452,9 +452,9 @@
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     border-radius: 0;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     border-bottom: solid #EA506A 4px;
-    padding: 10px 0px;
+    padding: 0px;
 }
 
 #indice .units ul li a .title {
