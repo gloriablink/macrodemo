@@ -443,6 +443,10 @@
     padding: 15px 5px;
 }
 
+#indice .unit-content {
+    border-radius: 0;
+}
+
 /* Navbar */
 	.navbar-bottom {
 		background: #eee;
