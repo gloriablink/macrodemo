@@ -1,5 +1,159 @@
 /* General */
 
+/*--------------------FUENTES---------------------*/
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.eot');
+    src: url('fonts/OpenSans-SemiBold.woff') format('woff'),
+        url('fonts/OpenSans-SemiBold.ttf') format('truetype'),
+        url('fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.eot');
+    src: url('fonts/OpenSans-Bold.woff') format('woff'),
+        url('fonts/OpenSans-Bold.ttf') format('truetype'),
+        url('fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-LightItalic.eot');
+    src: url('fonts/OpenSans-LightItalic.woff') format('woff'),
+        url('fonts/OpenSans-LightItalic.ttf') format('truetype'),
+        url('fonts/OpenSans-LightItalic.svg#OpenSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.eot');
+    src: url('fonts/OpenSans-BoldItalic.woff') format('woff'),
+        url('fonts/OpenSans-BoldItalic.ttf') format('truetype'),
+        url('fonts/OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.eot');
+    src: url('fonts/OpenSans-Italic.woff') format('woff'),
+        url('fonts/OpenSans-Italic.ttf') format('truetype'),
+        url('fonts/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic_1.eot');
+    src: url('fonts/OpenSans-Italic_1.woff') format('woff'),
+        url('fonts/OpenSans-Italic_1.ttf') format('truetype'),
+        url('fonts/OpenSans-Italic_1.svg#OpenSans-Italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBoldItalic.eot');
+    src: url('fonts/OpenSans-SemiBoldItalic.woff') format('woff'),
+        url('fonts/OpenSans-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/OpenSans-SemiBoldItalic.svg#OpenSans-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.eot');
+    src: url('fonts/OpenSans-ExtraBold.woff') format('woff'),
+        url('fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+        url('fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Light.eot');
+    src: url('fonts/OpenSans-Light.woff') format('woff'),
+        url('fonts/OpenSans-Light.ttf') format('truetype'),
+        url('fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.eot');
+    src: url('fonts/OpenSans-Regular.woff') format('woff'),
+        url('fonts/OpenSans-Regular.ttf') format('truetype'),
+        url('fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Regular.eot');
+    src: url('fonts/Quicksand-Regular.woff') format('woff'),
+        url('fonts/Quicksand-Regular.ttf') format('truetype'),
+        url('fonts/Quicksand-Regular.svg#Quicksand-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Bold.eot');
+    src: url('fonts/Quicksand-Bold.woff') format('woff'),
+        url('fonts/Quicksand-Bold.ttf') format('truetype'),
+        url('fonts/Quicksand-Bold.svg#Quicksand-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-SemiBold.eot');
+    src: url('fonts/Quicksand-SemiBold.woff') format('woff'),
+        url('fonts/Quicksand-SemiBold.ttf') format('truetype'),
+        url('fonts/Quicksand-SemiBold.svg#Quicksand-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Medium.eot');
+    src: url('fonts/Quicksand-Medium.woff') format('woff'),
+        url('fonts/Quicksand-Medium.ttf') format('truetype'),
+        url('fonts/Quicksand-Medium.svg#Quicksand-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand-Light.eot');
+    src: url('fonts/Quicksand-Light.woff') format('woff'),
+        url('fonts/Quicksand-Light.ttf') format('truetype'),
+        url('fonts/Quicksand-Light.svg#Quicksand-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic,500italic,500);
 
 	.body_clase .content-wrapper {
