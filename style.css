@@ -436,6 +436,12 @@
     font-size: 24px;
 }
 
+.js-title:hover,
+.js-title:active,
+.js-title:focus {
+	 color: #EA506A;
+}
+
 #indice .unit-content .actividades .item {
     border-bottom: 1px solid #EA506A;
     position: relative;
