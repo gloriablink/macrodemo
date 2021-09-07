@@ -498,7 +498,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 .col-units:before {
     position: absolute;
-    padding: 120px;
+    padding: 30px 120px;
     background-image: url(images/logo_macronet.png);
     content: "";
     background-repeat: no-repeat;
