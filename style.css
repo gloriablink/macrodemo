@@ -801,6 +801,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		font-weight: bold;
 	}
 
+	strong {
+		color: inherit;
+	}
+
 	.content hr,
 	.cke_contents hr {
 		border: 0;
