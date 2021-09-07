@@ -662,7 +662,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.content_type_clase_macrodemo .slider-indicators li.active,
 	.content_type_clase_macrodemo .publisher-navbar li:hover {
 		opacity: 1;
-		background:#f9bfad;
+		background:#EA506A;
 	}
 
 	.content_type_clase_macrodemo .publisher-navbar #top-navigator {
