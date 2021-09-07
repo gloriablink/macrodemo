@@ -953,31 +953,34 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #actividad .content .cke_contents .bck-ol-2,
 #actividad .content .texto_curso .bck-ol-2,
 #actividad .content .workspace ol li .bck-ol-2 {
-    list-style-type: none
+    list-style-type: none;
+	counter-reset: bck-li-counter;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li,
 #actividad .content .texto_curso .bck-ol-2 li,
 #actividad .content .workspace ol li .bck-ol-2 li,
 #actividad .popover-content .bck-ol-2 li {
-    padding-left: 14px;
+    counter-increment: bck-li-counter;
+    padding-left: 22px;
     position: relative;
-    list-style: none;
+    z-index: 0;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li:before,
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .content .workspace ol li ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before {
-    content: "";
-    height: 6px;
-    width: 6px;
-    background-color: #E30D24;
-    color: #E30D24;
-    border-radius: 50%;
+    content: counter(bck-li-counter) ".";
+    font-weight: bold;
     position: absolute;
-    margin-top: .6em;
-    margin-left: -15px
+    text-align: right;
+    color: #F8C7D4;
+    font-size: 17px;
+    width: 31px;
+    margin-top: 0px;
+    margin-left: -40px;
+    top: 0px;
 }
 
 
