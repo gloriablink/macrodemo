@@ -928,10 +928,9 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #actividad .content .workspace ol li .bck-ol-1 li,
 #actividad .popover-content .bck-ol-1 li {
     counter-increment: bck-li-counter;
-	padding-left: 0px;
-	position: relative;
-	z-index: 0;
-	font-weight: 700;
+    padding-left: 22px;
+    position: relative;
+    z-index: 0;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
@@ -939,15 +938,15 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #actividad .content .workspace ol li ol.bck-ol-1 li:before,
 #actividad .popover-content ol.bck-ol-1 li:before {
     content: counter(bck-li-counter) ".";
-	font-weight: 800;
-	position: absolute;
-	text-align: right;
-	color: #333;
-	font-size: 1.8rem;
-	width: 31px;
-	margin-top: 0px;
-	left: -25px;
-	top: 0px;
+    font-weight: bold;
+    position: absolute;
+    text-align: right;
+    color: #E30D24;
+    font-size: 17px;
+    width: 31px;
+    margin-top: 0px;
+    margin-left: -40px;
+    top: 0px;
 }
 
 /*Lista ordenada 2*/
