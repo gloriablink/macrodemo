@@ -588,13 +588,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		padding-right: 50px;
 	}
 
-	.content_type_clase_macrodemo .logo-publisher {
-		display: block;
-		margin-left: -48px;
-	}
+	
 	.content_type_clase_macrodemo .logo-publisher {
 		content: " ";
-		background-image: url(logo-blink.png);
+		background-image: url(images/logo_editorialmacro0709gamg.png);
 		height: 36px;
 		background-repeat: no-repeat;
 		width: 100px;
@@ -602,6 +599,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		margin-right: 60px;
 		float: left;
 		background-size: contain;
+		display: block;
 	}
 
 	.content_type_clase_macrodemo .slider-indicators {
