@@ -831,20 +831,20 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.texto_curso ul li,
 	.workspace ul li ul li,
 	.cke_contents ul li {
-		position: relative;
-		padding-left: 18px;
-		margin-bottom: 20px;
-	}
+	position: relative;
+    padding-left: 14px;
+    margin-bottom: 20px;
+}
 
-	.texto_curso ul li:before,
-	.workspace ul li ul li:before,
+	.texto_curso ul li:before, 
+	.workspace ul li ul li:before, 
 	.cke_contents ul li:before {
-		background-color: #f9bfad;
-		height: 12px;
-		width: 12px;
-		margin-top: 5px;
-		margin-left: -18px;
-	}
+    background-color: #404040;
+    height: 6px;
+    width: 6px;
+    margin-top: 7px;
+    margin-left: -15px;
+}
 
 	.content figure:first-child:last-child,
 	.content .js--row figure,
