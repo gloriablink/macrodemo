@@ -1195,8 +1195,23 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     margin-bottom: 10px;
 	}
 
+/*-------------ENFASIS--------------------*/
 
+.bck-enfasis1 {
+    color: #E30D24;
+}
 
+.bck-enfasis2 {
+    color: #878787;
+}
+
+.bck-enfasis3 {
+    color: #EA506A;
+}
+
+.bck-enfasis4 {
+    color: #F8C7D4;
+}
 
 /**/
 
