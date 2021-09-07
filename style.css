@@ -813,24 +813,26 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		padding: 0;
 		margin: 0 0 20px 0;
 	}
-	.content ol li,
+	
+	.content ol li, 
 	.cke_contents ol li {
-		counter-increment: bck-li-counter 1;
-		position: relative;
-		padding-left: 32px;
-	}
+    counter-increment: bck-li-counter 1;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 20px;
+}
 
 	.content ol li:before,
 	.cke_contents ol li:before {
-		content: counter(bck-li-counter)') ';
-		position: absolute;
-		margin-left: -30px;
-		font-weight: bold;
-		font-size: 2.0rem;
-		text-align: right;
-		color: #5ebdb2;
-		margin-top: -2px;
-	}
+	content: counter(bck-li-counter)') ';
+    position: absolute;
+    margin-left: -30px;
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align: right;
+    color: #5ebdb2;
+    margin-top: 1px;
+}
 
 	.texto_curso ul li,
 	.workspace ul li ul li,
