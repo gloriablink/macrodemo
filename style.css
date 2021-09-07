@@ -765,18 +765,18 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 }
 
 	.bck-title2 {
-		font-size: 2.0rem;
-		clear: both;
-		padding: 10px 20px 0px 0;
-		margin-bottom: 20px;
-	}
+    font-size: 25px;
+    clear: both;
+    padding: 10px 20px 0px 0;
+    margin-bottom: 20px;
+    color: #EA506A;
+}
 
 	.bck-title3 {
 		font-size: 1.6rem;
 	}
 
-	.bck-enfasis,
-	strong {
+	.bck-enfasis {
 		color: #f9bfad;
 		font-weight: bold;
 	}
