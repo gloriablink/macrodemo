@@ -26,7 +26,10 @@
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol-1'} },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol-2'} },
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
+				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis1' }},
+				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis2' }},
+				{ name: 'Énfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis3' }},
+				{ name: 'Énfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis4' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
