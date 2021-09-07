@@ -631,7 +631,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     font-weight: 400;
     cursor: pointer;
     background: #878787;
-    border-radius: 120px;
 }
 	
 	.content_type_clase_macrodemo .publisher-navbar .dropdown button {
