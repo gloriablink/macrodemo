@@ -746,7 +746,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.bck-title2,
 	.bck-title3,
 	.bck-title-activity {
-		font-family: 'Raleway', Georgia, serif;
+		font-family: 'Open Sans';
 		font-weight: bold;
 	 	color: #5ebdb2;
 	}
