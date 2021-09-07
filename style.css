@@ -1167,16 +1167,20 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		border-top-color: #5ebdb2;
 	}
 
+	.bck-box.box-4 {
+    border: 3px dashed #E30D24;
+    background: #F8C7D4;
+    padding: 21px;
+    position: relative;
+    margin-top: 45px;
+    border-radius: 15px;
+}
 
-	.bck-box.box-2 ul li:before {
-		font-family: 'FontAwesome';
-		content:"\f00c";
-		color: #f9bfad;
-		background: none;
-		margin-top: -2px;
-		margin-left: -24px;
-		font-size: 2.0rem;
+	.bck-box.box-4 .bck-title {
+	font-size: 20px;
+    margin-bottom: 10px;
 	}
+
 
 /**/
 
