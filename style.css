@@ -347,19 +347,7 @@
 
 	.navigator .slider-control.left,
 	.navigator .slider-control.right {
-		height: auto;
-		width: 100%;
-		background-color: transparent;
-		border-radius: 0px;
-		margin: 0px;
-		opacity: 1;
-		text-shadow: none;
-		color: #f9bfad;
-		font-size: 1.9rem;
-		position: relative;
-		top: auto;
-		left: auto;
-		cursor: pointer;
+		display: none;
 	}
 
 	body:not(.android) .main-navigator .slider-control:not(.disabled):hover {
