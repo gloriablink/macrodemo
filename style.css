@@ -1,5 +1,9 @@
 /* General */
 
+body {
+    font: 400 15px 'Open Sans',sans-serif;
+}
+
 /*--------------------FUENTES---------------------*/
 @font-face {
     font-family: 'Open Sans';
