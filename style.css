@@ -745,6 +745,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.bck-title1,
 	.bck-title2,
 	.bck-title3,
+	.bck-title4,
 	.bck-title-activity {
 		font-family: 'Open Sans';
 		font-weight: bold;
@@ -765,7 +766,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 }
 
 	.bck-title2 {
-        font-size: 25px;
+    font-size: 25px;
     clear: both;
     padding: 10px 20px 0px 0;
     margin-bottom: 35px;
@@ -779,6 +780,16 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     border-bottom: solid #878787 2px;
     font-weight: 600;
     padding-bottom: 4px;
+    margin-bottom: 25px;
+}
+
+	.bck-title4 {
+    font-size: 18px;
+    color: #E30D24;
+    border-bottom: solid #E30D24 2px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    margin-bottom: 25px;
 }
 
 	.bck-enfasis {
