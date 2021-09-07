@@ -706,7 +706,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	}
 
 	.content_type_clase_macrodemo .publisher-navbar .dropdown .caret {
-		border-color: #5ebdb2 transparent transparent transparent;
+		border-color: #878787 transparent transparent transparent;
 		margin-left: 6px;
 
 	}
