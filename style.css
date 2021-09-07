@@ -539,6 +539,12 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		color: #f9bfad;
 	}
 
+	#top-navigator .slider-indicators li {
+    text-indent: 0;
+    font-family: 'Quicksand';
+    font-weight: 500;
+}
+
 /**/
 
 /* Navbar (Breadcums) */
