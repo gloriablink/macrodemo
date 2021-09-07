@@ -633,10 +633,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		background: #5ebdb2;
 		border-radius: 120px;
 	}
+	
 	.content_type_clase_macrodemo .publisher-navbar .dropdown button {
-		background: none;
-		color: #5ebdb2;
-	}
+    background: none;
+    color: #878787;
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
 
 	.content_type_clase_macrodemo .slider-indicators:after {
 		content: '';
