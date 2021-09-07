@@ -1190,6 +1190,11 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     color: #fff;
 }
 
+	.bck-box.box-5 .bck-title {
+	font-size: 20px;
+    margin-bottom: 10px;
+	}
+
 
 
 
