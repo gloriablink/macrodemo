@@ -874,8 +874,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     content: "";
     height: 6px;
     width: 6px;
-    background-color: #333;
-    color: #333;
+    background-color: #E30D24;
+    color: #E30D24;
     border-radius: 50%;
     position: absolute;
     margin-top: .6em;
@@ -905,8 +905,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     content: "";
     height: 6px;
     width: 6px;
-    background-color: #333;
-    color: #333;
+    background-color: #F8C7D4;
+    color: #F8C7D4;
     border-radius: 50%;
     position: absolute;
     margin-top: .6em;
