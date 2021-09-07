@@ -619,20 +619,20 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 	.content_type_clase_macrodemo .publisher-navbar .dropdown button,
 	.content_type_clase_macrodemo .publisher-navbar li {
-		border-radius: 5px;
-		border: none;
-		background-color: transparent;
-		color: #ffffff;
-		vertical-align: middle;
-		margin: 0px 5px;
-		text-indent: 0px;
-		line-height: 3.5rem;
-		font-size: 2.0rem;
-		font-weight: 400;
-		cursor: pointer;
-		background: #5ebdb2;
-		border-radius: 120px;
-	}
+	border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0px 5px;
+    text-indent: 0px;
+    line-height: 3.5rem;
+    font-size: 2.0rem;
+    font-weight: 400;
+    cursor: pointer;
+    background: #878787;
+    border-radius: 120px;
+}
 	
 	.content_type_clase_macrodemo .publisher-navbar .dropdown button {
     background: none;
