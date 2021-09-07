@@ -1181,6 +1181,17 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     margin-bottom: 10px;
 	}
 
+	.bck-box.box-5 {
+    background: #878787;
+    padding: 21px;
+    position: relative;
+    margin-top: 45px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+
 
 /**/
 
