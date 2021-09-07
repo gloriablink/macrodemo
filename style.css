@@ -846,7 +846,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     background-color: #404040;
     height: 6px;
     width: 6px;
-    margin-top: 7px;
+    margin-top: 8px;
     margin-left: -15px;
 }
 
