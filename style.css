@@ -702,8 +702,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	}
 
 	.content_type_clase_macrodemo .publisher-navbar .dropdown li a {
-		color: #5ebdb2;
-	}
+    color: #878787;
+    font-family: 'Quicksand';
+    font-size: 17px;
+}
 
 	.content_type_clase_macrodemo .publisher-navbar .dropdown .caret {
 		border-color: #878787 transparent transparent transparent;
