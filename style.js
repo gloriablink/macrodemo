@@ -20,6 +20,9 @@
 				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
 				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title4'} },
 
+				{ name: 'Lista desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
+				{ name: 'Lista desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
 				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 
