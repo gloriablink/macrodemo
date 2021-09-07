@@ -915,6 +915,72 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     margin-left: -15px
 }
 
+/*Lista ordenada 1*/
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1,
+#actividad .content .workspace ol li .bck-ol-1 {
+    list-style-type: none;
+	counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .content .workspace ol li .bck-ol-1 li,
+#actividad .popover-content .bck-ol-1 li {
+    counter-increment: bck-li-counter;
+	padding-left: 0px;
+	position: relative;
+	z-index: 0;
+	font-weight: 700;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso ol.bck-ol-1 li:before,
+#actividad .content .workspace ol li ol.bck-ol-1 li:before,
+#actividad .popover-content ol.bck-ol-1 li:before {
+    content: counter(bck-li-counter) ".";
+	font-weight: 800;
+	position: absolute;
+	text-align: right;
+	color: #333;
+	font-size: 1.8rem;
+	width: 31px;
+	margin-top: 0px;
+	left: -25px;
+	top: 0px;
+}
+
+/*Lista ordenada 2*/
+#actividad .content .cke_contents .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ol li .bck-ol-2 {
+    list-style-type: none
+}
+
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .content .workspace ol li .bck-ol-2 li,
+#actividad .popover-content .bck-ol-2 li {
+    padding-left: 14px;
+    position: relative;
+    list-style: none;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li:before,
+#actividad .content .texto_curso ol.bck-ol-2 li:before,
+#actividad .content .workspace ol li ol.bck-ol-2 li:before,
+#actividad .popover-content ol.bck-ol-2 li:before {
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: #E30D24;
+    color: #E30D24;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: .6em;
+    margin-left: -15px
+}
+
 
 
 
