@@ -590,16 +590,17 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 	
 	.content_type_clase_macrodemo .logo-publisher {
-		content: " ";
-		background-image: url(images/logo_editorialmacro0709gamg.png);
-		height: 36px;
-		background-repeat: no-repeat;
-		width: 100px;
-		margin-left: -100px;
-		margin-right: 60px;
-		float: left;
-		background-size: contain;
-		display: block;
+    content: " ";
+    background-image: url(images/logo_editorialmacro0709gamg.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 125px;
+    margin-left: -100px;
+    margin-right: 50px;
+    float: left;
+    background-size: contain;
+    display: block;
+    margin-top: -4px;
 	}
 
 	.content_type_clase_macrodemo .slider-indicators {
