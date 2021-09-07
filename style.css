@@ -988,8 +988,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 }
 
 
-
-
 	.content figure:first-child:last-child,
 	.content .js--row figure,
 	.cke_contents figure:first-child:last-child,
@@ -1029,6 +1027,9 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.bck-td {
 		background: #dcdcdc;
 	}
+
+
+	/*------------------CAJAS--------------------*/
 
 	.bck-box {
 		margin-bottom: 30px;
@@ -1086,7 +1087,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.bck-box.box-3  {
 		border: 0;
 		padding: 20px;
-		font-size: 1.4rem;
+		font-size: 1.6rem;
 		position: relative;
 		margin-bottom: 40px;
 		border-radius: 40px;
@@ -1108,7 +1109,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.bck-box.box-3 .bck-title1 {
 		color: #f9bfad;
 		background: none;
-		font-size: 1.8rem;
+		font-size: 20px;
 		margin-bottom: 20px;
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
@@ -1116,15 +1117,16 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 	.bck-box.box-2 .bck-title,
 	.bck-box.box-3 .bck-title {
-		margin-top: -20px;
-		margin-left: -20px;
-		margin-right: -20px;
-		border-radius: 40px 40px 0 0 ;
-		padding: 14px 20px 10px;
-		color: #ffffff;
-		background: #f9bfad;
-		font-weight: 400;
-	}
+	margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px 10px 0 0;
+    padding: 14px 20px 10px;
+    color: #ffffff;
+    background: #EA506A;
+    font-weight: 400;
+}
+
 	.bck-box.box-3 .bck-title {
 		background: #5ebdb2;
 	}
