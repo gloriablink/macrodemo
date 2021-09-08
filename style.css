@@ -591,7 +591,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.content_type_clase_macrodemo .logo-publisher {
     content: " ";
     background-image: url(images/logo_editorialmacro0709gamg.png);
-    height: 50px;
+    height: 35px;
     background-repeat: no-repeat;
     width: 125px;
     margin-left: -100px;
@@ -599,7 +599,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     float: left;
     background-size: contain;
     display: block;
-    margin-top: -4px;
+    margin-top: -1px;
 	}
 
 	.content_type_clase_macrodemo .slider-indicators {
