@@ -1328,6 +1328,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     border-color: transparent;
 }
 
+.btn-primary {
+	color: #fff;
+    background-color: #878787;
+    border-color: transparent;
+    opacity: 1;
+}
+
 #actividad .content .review .attemps span {
     width: 35px;
     height: 35px;
