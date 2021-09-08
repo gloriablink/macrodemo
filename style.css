@@ -1213,6 +1213,47 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     color: #F8C7D4;
 }
 
+/*Desplegable*/
+
+.bck-dropdown {
+    -webkit-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+    border: solid #E30D24 3px;
+    border-radius: 10px;
+}
+
+.bck-dropdown-icon>.fa {
+    display: inline-block;
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+    color: #878787;
+}
+
+.bck-dropdown-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    padding-left: 10px;
+    color: #878787;
+}
+
+.bck-dropdown-button {
+    padding: 3px;
+    margin-top: 6px;
+}
+
 /**/
 
 @media screen and (max-width: 1099px) {
