@@ -1342,6 +1342,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     border-color: transparent;
 }
 
+.nota-budget span {
+    padding: 1px 46px 6px 10px;
+}
+
 #actividad .content .review .attemps span {
     width: 35px;
     height: 35px;
