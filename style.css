@@ -1266,6 +1266,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     padding: 20px 18px 10px 18px;
     background-color: #F8C7D4;
     border-radius: 0 0 5px 5px;
+    width: 100%;
+    clear: both;
 }
 
 .bck-dropdown-icon {
