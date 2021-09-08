@@ -1268,6 +1268,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     border-radius: 0 0 5px 5px;
 }
 
+.bck-dropdown-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
 /**/
 
 @media screen and (max-width: 1099px) {
