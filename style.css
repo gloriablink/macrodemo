@@ -1335,6 +1335,13 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     opacity: 1;
 }
 
+.btn-primary:not([disabled]):hover {
+	color: #fff;
+    background-color: #878787;
+    opacity: .9;
+    border-color: transparent;
+}
+
 #actividad .content .review .attemps span {
     width: 35px;
     height: 35px;
