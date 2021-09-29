@@ -1360,6 +1360,10 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     padding: 1px 46px 6px 10px;
 }
 
+.nota-budget span {
+    font-weight: 500;
+}
+
 #actividad .content .review .attemps span {
     width: 35px;
     height: 35px;
