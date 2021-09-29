@@ -1374,6 +1374,23 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     line-height: 24px;
 }
 
+.js-slide-wrapper > .header .single-pagination {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 75px;
+    background: #4B8DCA;
+    color: #ffffff;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    padding: 6px 17px 2px 4px;
+    font-family: 'Raleway', Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0 0 120px 0;
+}
+
 
 @media screen and (max-width: 992px) {
 	#actividad .class_slide {
