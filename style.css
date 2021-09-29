@@ -442,6 +442,10 @@ body {
     padding: 15px 5px;
 }
 
+#indice .unit-content .actividades .item .title {
+    font-weight: 600;
+}
+
 #indice .unit-content {
     border-radius: 0;
 }
