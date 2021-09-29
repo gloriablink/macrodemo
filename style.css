@@ -1327,7 +1327,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 .btn-danger.active, 
 .open .dropdown-toggle.btn-danger {
     color: #fff;
-    background-color: #E30D24;
+    background-color: #878787;
     border-color: transparent;
 }
 
