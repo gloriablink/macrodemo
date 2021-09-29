@@ -721,12 +721,6 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	}
 /**/
 
-/* Pagination */
-
-.js-slide-wrapper > .header .single-pagination {
-	display: none;
-}
-
 /* Iconos */
 
 #actividad .player.audio {
