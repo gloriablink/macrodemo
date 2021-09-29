@@ -409,15 +409,15 @@ body {
 
 .btn.btn-primary.disabled {
     color: #fff;
-    background-color: #EA506A;
+    background-color: #4B8DCA;
     border-color: transparent;
     opacity: 1;
-    -webkit-box-shadow: -1px 3px 0 0px #878787;
-    box-shadow: -1px 3px 0 0px #878787;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 #indice .unit-content .actividades {
-    border-top: 1px solid #EA506A;
+    border-top: 1px solid #4B8DCA;
     margin-top: 40px;
     margin-bottom: 90px;
 }
@@ -474,17 +474,18 @@ body {
 #indice .units ul li.active:not(.disabled), 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
 #indice .units ul li:focus:not(.disabled) {
-    background: #EA506A;
-    border-left: solid #E30D24 31px;
+    background: #4B8DCA;
+    border-left: solid #164E9B 31px;
     border-right: solid #878787 8px;
     border-bottom: none;
     padding-bottom: 4px;
+    border-radius: 9px;
 }
 
 /*Prueba logo*/
 .content-wrapper.libro {
     margin-top: 60px;
-    padding-top: 100px;
+    padding-top: 20px;
     top: 0;
     position: static;
 }
@@ -496,7 +497,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     content: "";
     background-repeat: no-repeat;
     background-size: contain;
-    display: block;
+    display: none;
     margin-top: -70px;
 }
 
@@ -660,7 +661,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	.content_type_clase_macrodemo .slider-indicators li.active,
 	.content_type_clase_macrodemo .publisher-navbar li:hover {
 		opacity: 1;
-		background:#EA506A;
+		background:#4B8DCA;
 	}
 
 	.content_type_clase_macrodemo .publisher-navbar #top-navigator {
@@ -1308,7 +1309,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 
 .btn-danger {
     color: #fff;
-    background-color: #EA506A;
+    background-color: #4B8DCA;
     border-color: transparent;
 }
 
