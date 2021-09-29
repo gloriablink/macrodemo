@@ -1340,7 +1340,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     opacity: 1;
 }
 
-#t2-btn-save {
+.btn-save[disabled],
+.btn-save {
     background-color: #4B8DCA;
 }
 
