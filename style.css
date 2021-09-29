@@ -587,20 +587,20 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 		padding-right: 50px;
 	}
 
-	
-	.content_type_clase_macrodemo .logo-publisher {
+		
+.content_type_clase_macrodemo .logo-publisher {
     content: " ";
     background-image: url(images/logo-macro-educacion.png);
-    height: 35px;
+    height: 42px;
     background-repeat: no-repeat;
     width: 125px;
-    margin-left: -100px;
+    margin-left: -81px;
     margin-right: 50px;
     float: left;
     background-size: contain;
     display: block;
     margin-top: -1px;
-	}
+}
 
 	.content_type_clase_macrodemo .slider-indicators {
 		padding: 0;
