@@ -547,6 +547,12 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     font-weight: 500;
 }
 
+.dropdown-menu>li>a:hover, 
+.dropdown-menu>li>a:focus {
+    text-decoration: none;
+    background-color: #d6edff;
+}
+
 /**/
 
 /* Navbar (Breadcums) */
@@ -709,7 +715,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	}
 
 	.content_type_clase_macrodemo .publisher-navbar .dropdown li a {
-    color: #878787;
+    color: #4B8DCA;
     font-family: 'Quicksand';
     font-size: 17px;
 }
