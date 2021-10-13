@@ -476,7 +476,7 @@ body {
 
 #indice .units ul li a:not(.delete) {
     display: block;
-    padding: 16px 16px 16px 10px;
+    padding: 10px 16px 10px 10px;
 }
 
 #indice .units ul li.active:not(.disabled), 
